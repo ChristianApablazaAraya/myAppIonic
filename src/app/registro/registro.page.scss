@@ -1,0 +1,49 @@
+/* nombre y contraseña */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 25spx 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* botton de ingreso */
+  button {
+    margin: 8px 0;
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #7A06D5,
+        #09f,
+        #0df
+    );
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  button span {
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+  }
+  
+  /* efectos del buton */
+  button:hover span{
+    background: none;
+  }
+
+  bottom:active {
+    transform: scale(0.9);
+  }
